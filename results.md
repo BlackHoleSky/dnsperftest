@@ -6,6 +6,7 @@ Results from tests done by our users. Feel free to add yours (including Country,
   * [USA, California, San Diego, Frontier Residential](#usa-san-diego-frontier)
   * [USA, California, Fremont, Linode Datacenter](#usa-fremont-linode)
   * [USA, California, San Francisco, Digital Ocean Datacenter](#usa-sanfrancisco-digitalocean)
+  * [USA, Georgia, Gainesville, Comcast Residential](#usa-georgia-gainesville-comcast)
   * [USA, Texas, Dallas, Linode](#usa-dallas-linode)
   * [Canada, NB, Fredericton, Bell Aliant](#canada-nb-fredericton-bell)
   
@@ -21,7 +22,6 @@ Results from tests done by our users. Feel free to add yours (including Country,
 
 <a name="usa-san-diego-frontier"></a>
 **USA, California, San Diego, Frontier Residential**
-
 ``` 
                       test1   test2   test3   test4   test5   test6   test7   test8   test9   Average
 #1  level3             6 ms    8 ms    6 ms    6 ms    13 ms   6 ms    5 ms    7 ms    6 ms   7.00
@@ -40,7 +40,8 @@ Results from tests done by our users. Feel free to add yours (including Country,
 
 <a name="usa-fremont-linode"></a>
 **USA, California, Fremont, Linode Datacenter**
-```                      test1   test2   test3   test4   test5   test6   test7   test8   test9   test10  Average
+```
+                      test1   test2   test3   test4   test5   test6   test7   test8   test9   test10   Average
 #1  cloudflare        1 ms    1 ms    1 ms    1 ms    1 ms    1 ms    1 ms    1 ms    1 ms    1 ms      1.00
 #2  norton            1 ms    1 ms    1 ms    2 ms    1 ms    1 ms    1 ms    1 ms    1 ms    1 ms      1.10
 #3  neustar           1 ms    1 ms    1 ms    2 ms    1 ms    1 ms    1 ms    1 ms    1 ms    2 ms      1.20
@@ -57,7 +58,8 @@ Results from tests done by our users. Feel free to add yours (including Country,
 
 <a name="usa-sanfrancisco-digitalocean"></a>
 **USA, California, San Francisco, Digital Ocean Datacenter**
-```                      test1   test2   test3   test4   test5   test6   test7   test8   test9   test10  Average
+```
+                      test1   test2   test3   test4   test5   test6   test7   test8   test9   test10   Average
 #1  level3            1 ms    1 ms    1 ms    1 ms    1 ms    1 ms    1 ms    1 ms    2 ms    1 ms      1.10
 #2  norton            2 ms    2 ms    2 ms    2 ms    2 ms    2 ms    2 ms    2 ms    2 ms    2 ms      2.00
 #3  neustar           2 ms    2 ms    2 ms    3 ms    2 ms    2 ms    2 ms    2 ms    2 ms    2 ms      2.10
@@ -74,7 +76,8 @@ Results from tests done by our users. Feel free to add yours (including Country,
 
 <a name="usa-dallas-linode"></a>
 **USA, Texas, Dallas, Linode Datacenter**
-```                      test1   test2   test3   test4   test5   test6   test7   test8   test9   test10  Average
+```
+                      test1   test2   test3   test4   test5   test6   test7   test8   test9   test10   Average
 #1  cleanbrowsing     1 ms    1 ms    1 ms    1 ms    1 ms    1 ms    1 ms    1 ms    1 ms    1 ms      1.00
 #1  cloudflare        1 ms    1 ms    1 ms    1 ms    1 ms    1 ms    1 ms    1 ms    1 ms    1 ms      1.00
 #1  level3            1 ms    1 ms    1 ms    1 ms    1 ms    1 ms    1 ms    1 ms    1 ms    1 ms      1.00
@@ -87,6 +90,34 @@ Results from tests done by our users. Feel free to add yours (including Country,
 #10 adguard           114 ms  43 ms   42 ms   112 ms  119 ms  41 ms   115 ms  116 ms  116 ms  41 ms     85.90
 #11 freenom           115 ms  125 ms  114 ms  125 ms  151 ms  230 ms  125 ms  124 ms  114 ms  116 ms    133.90
 #12 yandex            140 ms  177 ms  141 ms  137 ms  147 ms  171 ms  139 ms  143 ms  140 ms  163 ms    149.80
+```
+
+<a name="usa-georgia-gainesville-comcast"></a>
+**USA, Georgia, Gainesville, Comcast Residential**
+```
+                      test1   test2   test3   test4   test5   test6   test7   test8   test9   test10   Average 
+#1  8.8.4.4           12 ms   20 ms   16 ms   20 ms   12 ms   16 ms   16 ms   12 ms   20 ms   16 ms     16.00
+#2  1.1.1.1           16 ms   16 ms   16 ms   20 ms   20 ms   16 ms   20 ms   12 ms   16 ms   16 ms     16.80
+#3  level3            12 ms   16 ms   16 ms   20 ms   12 ms   16 ms   16 ms   24 ms   16 ms   20 ms     16.80
+#4  1.0.0.1           16 ms   12 ms   16 ms   16 ms   16 ms   16 ms   16 ms   16 ms   20 ms   28 ms     17.20
+#5  208.67.220.220    16 ms   16 ms   16 ms   16 ms   12 ms   16 ms   16 ms   28 ms   20 ms   20 ms     17.60
+#6  cloudflare        28 ms   16 ms   16 ms   16 ms   12 ms   20 ms   20 ms   16 ms   12 ms   20 ms     17.60
+#7  opendns           16 ms   20 ms   16 ms   24 ms   12 ms   28 ms   20 ms   16 ms   16 ms   12 ms     18.00
+#8  8.8.8.8           24 ms   20 ms   16 ms   20 ms   16 ms   20 ms   20 ms   16 ms   16 ms   16 ms     18.40
+#9  2001:558:feed::1  40 ms   20 ms   16 ms   20 ms   12 ms   16 ms   16 ms   20 ms   16 ms   20 ms     19.60
+#10 google            20 ms   20 ms   24 ms   28 ms   16 ms   16 ms   16 ms   24 ms   16 ms   16 ms     19.60
+#11 208.67.222.222    20 ms   12 ms   16 ms   20 ms   16 ms   28 ms   16 ms   20 ms   16 ms   40 ms     20.40
+#12 quad9             20 ms   28 ms   20 ms   16 ms   12 ms   16 ms   12 ms   16 ms   16 ms   60 ms     21.60
+#13 149.112.112.112   28 ms   28 ms   32 ms   40 ms   24 ms   24 ms   28 ms   28 ms   24 ms   32 ms     28.80
+#14 neustar           32 ms   28 ms   28 ms   32 ms   28 ms   32 ms   32 ms   28 ms   28 ms   32 ms     30.00
+#15 comodo            28 ms   32 ms   32 ms   44 ms   32 ms   32 ms   28 ms   36 ms   28 ms   32 ms     32.40
+#16 norton            28 ms   28 ms   24 ms   28 ms   24 ms   28 ms   36 ms   28 ms   28 ms   72 ms     32.40
+#17 adguard           36 ms   32 ms   36 ms   36 ms   36 ms   36 ms   36 ms   36 ms   32 ms   32 ms     34.80
+#18 9.9.9.9           16 ms   16 ms   40 ms   20 ms   20 ms   160 ms  16 ms   16 ms   12 ms   36 ms     35.20
+#19 cleanbrowsing     28 ms   36 ms   28 ms   28 ms   28 ms   64 ms   32 ms   32 ms   40 ms   64 ms     38.00
+#20 2001:558:feed::2  40 ms   44 ms   44 ms   40 ms   48 ms   40 ms   40 ms   40 ms   40 ms   40 ms     41.60
+#21 freenom           72 ms   72 ms   60 ms   60 ms   96 ms   72 ms   72 ms   92 ms   68 ms   184 ms    84.80
+#22 yandex            168 ms  176 ms  184 ms  184 ms  184 ms  184 ms  188 ms  288 ms  184 ms  184 ms    192.40
 ```
 
 <a name="canada-nb-fredericton-bell"></a>
@@ -104,7 +135,6 @@ Results from tests done by our users. Feel free to add yours (including Country,
 #9  yandex         145 ms  147 ms  142 ms  144 ms  148 ms  174 ms  136 ms  141 ms  143 ms  146.10
 #10 opendns        172 ms  63 ms   245 ms  158 ms  146 ms  159 ms  279 ms  140 ms  163 ms  167.50
 ```
-
 
 ## Europe Results
 <a name="france-paris-ovh"></a>
